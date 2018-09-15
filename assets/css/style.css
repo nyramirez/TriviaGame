@@ -3,23 +3,26 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
-    color:blue;
+    font-family: 'Frijole', cursive;
+    font-size: 2.7rem;
+    color:red;
+    margin-top:2%;
 }
 .header {
-    margin-top:10px;
+    margin-top:15px;
     height: 100px;
     width: auto;
-    background-color: aquamarine;
+    background-image: linear-gradient(to right,lightblue,skyblue,lightblue,skyblue,lightblue);
 }
 
 button {
-    margin-top:65%;
-    width: auto;
+    margin-top:45%;
+    background-image: linear-gradient(to right, rgb(18, 43, 155),rgba(0, 0, 255, 0.603),orange,red,orange,rgba(0, 0, 255, 0.603),rgb(18, 43, 155));
 }
 
 .btn {
-    font-size: 3rem;
+    font-family: 'Hanalei', cursive;
+    font-size: 2.5rem;
     width: auto;
 }
 
@@ -29,7 +32,29 @@ button {
     height: 600px;
     background-image: url("../images/6905979-cute-blue-background.jpg");
     background-size: 100%;
+    min-height: 90vh;
 }
+
+#timer {
+    font-family: 'Delius Swash Caps', cursive;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-family: 'Hanalei', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.answer {
+    font-family: 'Akronim', cursive;
+    font-size: 2rem;
+    width: auto;
+}
+
+
+
 
 @media only screen and (max-width: 991px) {
     h1 {
